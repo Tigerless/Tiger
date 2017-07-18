@@ -1,1 +1,1 @@
-Git is 
+Git is very good!
