@@ -1,1 +1,1 @@
-Git is not very good!
+Git is very good!
