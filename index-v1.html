@@ -13,86 +13,71 @@
         }
         .clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
         .clearfix{zoom:1;}
-
         body{
-            background:url('image/1V4o5xqtgr_src.jpg') no-repeat top ;
+            background:url('image/1V4o0zhQPN_src.jpg') no-repeat top ;
             background-size: cover;
             color: #fff;
+            font-family:"Times New Roman",Times,serif;
         }
         input{
             border:0 none white;
             background:none;
         }
-        .first{
+        .first-head{
             background-color:#1e1b29;
-            height:28px;
-        }
-        .first-1{
-            margin:0 30px;
+            padding:0 30px;
             height:28px;
         }
         .first-2{
-            margin-top:7px;
+            margin:7px;
             height:14px;
-            width:300px;
+            width:200px;
             float: right;
         }
         .marginone{
-            font-family:"Times New Roman",Times,serif;
+            margin-top:7px;
             color:#03a2e4;
             text-decoration:none;
             font-size:76%;
+            display: inline-block;
         }
         .margintwo{
             float: right;
-            font-family:"Times New Roman",Times,serif;
             color:#96979c;
             text-decoration:none;
             font-size:76%;
         }
         .marginthree{
             float: right;
-            font-family:"Times New Roman",Times,serif;
             color:#96979c;
             text-decoration:none;
             font-size:76%;
         }
-        .body2{
-            margin-left:40px;
-            margin-right:40px;
-            padding:60px 0px 60px 0px;
+        .body-center{
+            margin:0 40px 0 40px;
+            padding:60px 0px;
             height:450px;
         }
-        .body3
+        .body-final
         {
             height:90px;
-
         }
         .transbox-first{
             width: 280px;
             height: 42px;
             background-color: rgba(0,0,0,0.6);
             margin-top:32px;
-            margin-left:60%;
+            margin-left: 60%;
+            border-bottom: 2px #fff solid;
         }
         .scan{
             float: left;
             width: 50%;
             color: #fff;
             text-align: center;
-            border-bottom: 2px #fff solid;
+
             font-size: 16px;
-            padding: 15px 0 4px;
-            cursor: pointer;
-        }
-        .number{
-            float: right;
-            width: 50%;
-            color: #fff;
-            text-align: center;
-            border-bottom: 2px #fff solid;
-            font-size: 16px;
-            padding: 15px 0 4px;
+            padding: 18px 0 1px;
             cursor: pointer;
         }
         .transbox{
@@ -102,28 +87,20 @@
             margin-top:0px;
             margin-left:60%;
         }
-        .transbox-small{
+        .transbox-center{
             width: 200px;
-            height: 240px;
-            padding: 20px 40px 0px 40px;
+            padding: 25px 40px 0px 40px;
         }
         .account{
-            width: 200px;
-            height: 40px;
-            padding-bottom: 10px;
-            padding-top: 5px;
+            margin:0 0 10px 0;
         }
         .account-1{
             float: right;
-            width: 160px;
             height: 40px;
             background-color:#fff;
         }
         .input{
-            margin-right: 10px;
-            margin-top: 12px;
-            margin-bottom: 10px;
-            margin-left: 10px;
+            margin:12px 10px 10px 10px;
             border: 0px;
         }
         .forget{
@@ -131,14 +108,14 @@
             color:#fff;
             text-decoration:none;
             font-size:76%;
-            width:200px;
             padding-bottom:18px;
         }
         .submit{
             background: url('image/log_in.png') no-repeat top;
-            width: 200px;
             height: 50px;
             border: 0px;
+            display: block;
+            width: 100%;
         }
         .final{
             width: 200px;
@@ -149,28 +126,26 @@
     </style>
 </head>
 <body>
-<div class="first">
-    <div class="first-1">
+<div class="first-head">
         <a href="https://mobile.alipay.com/index.htm" class="marginone">支付宝APP</a>
         <div class="first-2">
             <a href="https://www.alipay.com:443" class="marginthree"> &nbsp提建议</a>
             <a href="https://www.alipay.com:443" class="margintwo">支付宝首页 &nbsp|</a>
             <a href="https://www.alipay.com:443" class="marginthree"> &nbsp服务大厅 &nbsp|</a>
         </div>
-    </div>
 </div>
-<div class="body2">
+<div class="body-center">
     <img src="image/T1HHFgXXVeXXXXXXXX.png">
-    <div class="transbox-first clearfix">
+    <div  class="transbox-first clearfix">
         <p class="scan">扫码登录</p>
-        <div class="number">账号登录</div>
+        <p class="scan">账号登录</p>
     </div>
     <div class="transbox">
-        <div class="transbox-small">
+        <div class="transbox-center">
             <div class="account">
-                <img src="image/user3.png" width="40px" height="40px">
+                <img src="image/user3.png" width="40px" height="40px"/>
                 <div class="account-1">
-                    <input class="input" style="width: 140px" style="" >
+                    <input class="input" style="width: 140px" >
                 </div>
             </div>
             <div class="account">
@@ -191,7 +166,7 @@
         </div>
     </div>
 </div>
-<div class="body3">
+<div class="body-final">
 
 </div>
 </body>

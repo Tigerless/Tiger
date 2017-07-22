@@ -1,0 +1,13 @@
+1、a标签为行内元素。空链接为href="javascript:void(0)"。
+2、清除样式，生成一层样式包围住，再clearfix。
+	.clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+	.clearfix{zoom:1;}
+
+3、块级元素：不能和其他元素在同一行，独占一行。
+（1）display:inline ——> 变成行内元素
+（2）能设置宽高。eg: <div> <>
+4、行内元素(内联元素)：能和其他元素呆同一行。
+（1）display:block ——> 变成行内元素
+（2）不能设置宽高。 eg: <img> <a>
+5、行内块级元素：能和其他元素呆一起。
+	能设置宽高。<img> <input> <textarea>
