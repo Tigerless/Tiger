@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        body {
+            background-color: #404040;
+            color: #E0E0E0;
+        }
+
+        .window {
+            border: 2px outset #404040;
+            margin: 0.5em;
+        }
+
+        .title {
+            background: #4268A8;
+            font: menu;
+        }
+
+        .title_name {
+            display: inline-block;
+            min-width: 40em;
+            margin-right: 1em;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+
+        .title_state {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 90%;
+        }
+
+        .title_button {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+        }
+
+        .content {
+            border: 4px solid #800;
+        }
+
+        .user_area {
+            min-height: 3em;
+            border: 4px solid #080;
+        }
+
+        .buttons {
+            border: 4px solid #00A;
+        }
+
+        button {
+            min-width: 5em;
+            font: caption;
+        }
+    </style>
+</head>
+<body>
+<fieldset>
+    <legend>窗口列表</legend>
+
+    <div class="window">
+        <div class="title">
+            <span class="title_name">窗口名称</span>
+            <span class="title_state">窗口信息 0123456789 abcdefg ABCDEFG</span>
+            <img class="title_button" src="images/min.png" alt="[_]" />
+            <img class="title_button" src="images/close.png" alt="[X]" />
+        </div>
+        <div class="content">
+            <div class="user_area"></div>
+            <div class="buttons">
+                <button type="button">OK</button>
+                <button type="button">Apply</button>
+                <button type="button">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</fieldset>
+</body>
+</html>

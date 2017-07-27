@@ -21,38 +21,108 @@
             height: 280px;
             margin: 30px 50px;
             background-color: rgba(0,0,0,0.6);
-            margin-top:40px;
-            margin-left:100px;
+        }
+        .father{
+            width: 1000px;
+            height: 100px;
+            background-color: #d58512;
+        }
+        .first{
+            height:120px;
+            width: 50px;
+            background-color: #2aabd2;
+        }
+        .second{
+            width: 200px;
+            height:100px;
+            background-color: #67b168;
+        }
+        .third{
+            width: 200px;
+            height:100px;
+            background-color: #ffabd2;
+        }
+        .allLeft{
+            float: left;
+        }
+        .allRight{
+            float: right;
+        }
+        .father-2{
+            width: 50%;
+            height: 400px;
+            background-color: #d58512;
+            position: absolute;
+            top:20px;
+            right:20px;
+        }
+        .fax{
+            position: fixed;
+            top:20px;
+            left:20px;
+        }
+        .sp{
+            display: inline-block;
+        }
+        .clear{
+            clear: both;
+        }
+        .section1{
+            background:url("/images/bg-1.jpg");
+        }
     </style>
 </head>
-
 <body>
-<div style="width: 500px; background-color: #d58512;margin: 20px" class="clearfix">
-    <div style="height:100px;width: 50px;background-color: #2aabd2">10%大小
+    <div class="father">
+        <div class="first sp">10%大小
         </div>
-    <div style="width: 20%;height:100px;background-color: #67b168;float: left">绿色
+        <div class="second sp">绿色
         </div>
-    <div style="width: 30%;height:100px;background-color: #ffabd2;float: left">30%大小
+        <div class="third sp">30%大小
         </div>
-</div>
-<p>在下面的段落中，我们添加了一个样式为 <b>float:right</b> 的图像。结果是这个图像会浮动到段落的右侧。</p>
-<p>
-    <div class="transbox">
-    <img id="div1" src="image/T1HHFgXXVeXXXXXXXX.png" />
-    <img id="div2" src="image/T1HHFgXXVeXXXXXXXX.png" />
+        <div class="first sp">10%大小
+        </div>
+        <div class="second sp">绿色
+        </div>
+        <div class="third sp">30%大小
+        </div>
     </div>
+    <div class="father">
+        <div class="first sp">10%大小
+        </div>
+        <div class="second sp">绿色
+        </div>
+        <div class="third sp">30%大小
+        </div>
+        <div class="first sp">10%大小
+        </div>
+        <div class="second sp">绿色
+        </div>
+        <div class="third sp">30%大小
+        </div>
+    </div>
+    <!--<input class="first" type="button" value="but" id="but" />-->
+    <!--<script type="text/javascript">-->
+        <!--document.getElementById("but").onclick = function () {-->
+            <!--alert("点击了按钮1");-->
+        <!--}-->
+        <!--document.getElementById("but").onclick = function () {-->
+            <!--alert("点击了按钮2");-->
+        <!--}-->
+    <!--</script>-->
 
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-    This is some text. This is some text. This is some text.
-</p>
+    <!--<div class="father-2 allRight">-->
+
+        <!--<div class="third">30%大小-->
+        <!--</div>-->
+
+        <!--<button class="second">绿色-->
+        <!--</button>-->
+
+        <!--<div class="first">10%大小-->
+        <!--</div>-->
+    <!--</div>-->
+
 </body>
 
 </html>

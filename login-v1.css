@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+.clearfix{zoom:1;}
+body{
+    background:url('image/bg2.jpg') no-repeat top;
+    font-size: 70%;
+    background-size: 100% 100%;
+    color: #fff;
+    font-family: "Times news famly",Times,Serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Times news famly",Times,Serif;
+}
+
+button{
+    color: #fff;
+    font-family: "Times news famly",Times,Serif;
+}
+.header{
+    padding: 0 50px;
+    background-color: #1e1b29;
+    height: 28px;
+}
+.download{
+    margin: 7px 0 0 0;
+    display: inline-block;
+    color: #0695cd;
+}
+.nav{
+    margin: 7px 0 0 0;
+    float:right;
+    color: #83776f;
+}
+.nav-item{
+    color: #83776f;
+}
+.main{
+    margin: 50px 0 0 45px;
+}
+.login-box{
+    background-color: rgba(0,0,0,0.5);
+    margin: 30px 0 0 52%;
+    width: 280px;
+}
+.login-box-header{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    padding: 18px 0 5px 0;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+}
+.account-login-box-main{
+    padding: 10px 30px 0 30px;
+}
+.row{
+    margin:10px 0 0 0;
+}
+.icon{
+    position: absolute;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #aaabab;
+}
+.special{
+    padding: 8px;
+    height: 24px;
+    width: 24px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    padding: 0 0 0 50px;
+    box-sizing:border-box;
+}
+.forget{
+    display: inline-block;
+    float: right;
+    margin: 5px 0 0 0;
+}
+.enter{
+    background:#0AE;
+    border-radius:5px;
+    text-align: center;
+    margin: 15px 0 0 0;
+    height: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 160%;
+}
+.login-box-footer{
+    height: 40px;
+}
+.footer{
+    margin: 120px 0 80px 30%;
+
+}
+a.btn-active:link {color: #0ae}
+.btn-active{
+    color: #0ae;
+    border-bottom: 2px solid #0ae;
+}

@@ -9,11 +9,7 @@ body{
     background-size: cover;
     color: #fff;
     font-family:"Times New Roman",Times,serif;
-    font-size:76%;
-}
-input{
-    border:0 none white;
-    background:none;
+    font-size: 12px;
 }
 a{
     text-decoration:none;
@@ -47,7 +43,7 @@ a{
     margin: 0 0 50px 0;
 }
 .login-box{
-    width: 295px;
+    width: 293px;
     background-color: rgba(0,0,0,0.5);
     margin: 32px 0 0 55%;
 }
